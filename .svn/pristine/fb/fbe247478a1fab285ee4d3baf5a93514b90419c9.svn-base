@@ -1,0 +1,24 @@
+package com.testing.java.prac;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+import com.testing.java.utils.PropUtil;
+
+@Test
+public class Testcase {
+	public void testSearch001(){
+		//打开浏览器
+		WebDriver driver = new FirefoxDriver();
+		//打开首页
+		
+		driver.get(PropUtil.getProperty("configData\\config.properties", "baseURL"));
+		//获取搜索文本框
+		driver.findElement(By.xpath(PropUtil.getProperty("configData\\uiElement\\BaiduIndexUIElement.properties", "search"))).sendKeys("51Testing");
+		driver.findElement(By.xpath(PropUtil.getProperty("configData\\uiElement\\BaiduIndexUIElement.properties", "submitbutton"))).click();
+		
+		
+	}
+}

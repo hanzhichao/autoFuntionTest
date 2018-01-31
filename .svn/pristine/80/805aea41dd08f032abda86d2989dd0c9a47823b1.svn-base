@@ -1,0 +1,16 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10882" started-at="2016-07-24T15:04:51Z" finished-at="2016-07-24T15:05:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10882" started-at="2016-07-24T15:04:51Z" finished-at="2016-07-24T15:05:02Z">
+      <class name="com.testing.java.prac.Testcase">
+        <test-method status="PASS" signature="testSearch001()" name="testSearch001" duration-ms="10430" started-at="2016-07-24T15:04:51Z" finished-at="2016-07-24T15:05:01Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="429" started-at="2016-07-24T15:05:01Z" finished-at="2016-07-24T15:05:02Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

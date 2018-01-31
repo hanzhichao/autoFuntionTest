@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="3" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="autoFunctionTest" duration-ms="54659" started-at="2016-07-24T14:40:02Z" finished-at="2016-07-24T14:40:56Z">
+    <groups>
+    </groups>
+    <test name="baidu" duration-ms="54659" started-at="2016-07-24T14:40:02Z" finished-at="2016-07-24T14:40:56Z">
+      <class name="com.testing.java.testcase.BaiduIndexTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="beforeMethod" is-config="true" duration-ms="14438" started-at="2016-07-24T22:40:02Z" finished-at="2016-07-24T22:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="clickLogin()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="clickLogin" duration-ms="94" started-at="2016-07-24T22:40:16Z" finished-at="2016-07-24T22:40:16Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[7]"}
+Command duration or timeout: 78 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: fc3f3260-4099-4a6d-97b5-f20b48b14127
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[7]"}
+Command duration or timeout: 78 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: fc3f3260-4099-4a6d-97b5-f20b48b14127
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at com.testing.java.pageobject.BaiduIndexPageObject.clickLogin(Unknown Source)
+	at com.testing.java.testcase.BaiduIndexTest.clickLogin(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[7]"}
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous5270360689557490581webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/kevin/AppData/Local/Temp/anonymous5270360689557490581webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/kevin/AppData/Local/Temp/anonymous5270360689557490581webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous5270360689557490581webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/kevin/AppData/Local/Temp/anonymous5270360689557490581webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="afterMethod" is-config="true" duration-ms="484" started-at="2016-07-24T22:40:16Z" finished-at="2016-07-24T22:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="beforeMethod" is-config="true" duration-ms="10750" started-at="2016-07-24T22:40:17Z" finished-at="2016-07-24T22:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="search001()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="search001" duration-ms="62" started-at="2016-07-24T22:40:27Z" finished-at="2016-07-24T22:40:28Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='kw']"}
+Command duration or timeout: 62 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 78cc92b4-457e-4022-b14e-9decffff634c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='kw']"}
+Command duration or timeout: 62 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 78cc92b4-457e-4022-b14e-9decffff634c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at com.testing.java.pageobject.BaiduIndexPageObject.inputSearch(Unknown Source)
+	at com.testing.java.testcase.BaiduIndexTest.search001(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":".//*[@id='kw']"}
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous2762917089239854275webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/kevin/AppData/Local/Temp/anonymous2762917089239854275webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/kevin/AppData/Local/Temp/anonymous2762917089239854275webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous2762917089239854275webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/kevin/AppData/Local/Temp/anonymous2762917089239854275webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search001 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="afterMethod" is-config="true" duration-ms="485" started-at="2016-07-24T22:40:28Z" finished-at="2016-07-24T22:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="beforeMethod" is-config="true" duration-ms="16356" started-at="2016-07-24T22:40:28Z" finished-at="2016-07-24T22:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testNuomi001()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="testNuomi001" duration-ms="78" started-at="2016-07-24T22:40:44Z" finished-at="2016-07-24T22:40:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[1]"}
+Command duration or timeout: 78 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: a9750daa-92d0-4da8-aaf9-802dc526b125
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[1]"}
+Command duration or timeout: 78 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: a9750daa-92d0-4da8-aaf9-802dc526b125
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at com.testing.java.pageobject.BaiduIndexPageObject.clickNuomi(Unknown Source)
+	at com.testing.java.testcase.BaiduIndexTest.testNuomi001(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[1]"}
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous1521208220555536509webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/kevin/AppData/Local/Temp/anonymous1521208220555536509webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/kevin/AppData/Local/Temp/anonymous1521208220555536509webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous1521208220555536509webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/kevin/AppData/Local/Temp/anonymous1521208220555536509webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNuomi001 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.java.testcase.BaiduIndexTest@69b861]" name="afterMethod" is-config="true" duration-ms="500" started-at="2016-07-24T22:40:44Z" finished-at="2016-07-24T22:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testing.java.testcase.BaiduIndexTest -->
+      <class name="com.testing.java.testcase.LoginTest">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.testing.java.testcase.LoginTest@1247c45]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-07-24T22:40:45Z" finished-at="2016-07-24T22:40:45Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[7]"}
+Command duration or timeout: 62 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 307b3eae-70d8-4c0e-a1c6-a93094e6e3ff
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[7]"}
+Command duration or timeout: 62 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 307b3eae-70d8-4c0e-a1c6-a93094e6e3ff
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at com.testing.java.pageobject.BaiduIndexPageObject.clickLogin(Unknown Source)
+	at com.testing.java.pageobject.LoginPageobject.<init>(Unknown Source)
+	at com.testing.java.testcase.LoginTest.beforeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":".//*[@id='u1']/a[7]"}
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'DESKTOP-HJ7RV39', ip: '127.0.0.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_75'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous7867734237042370704webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/kevin/AppData/Local/Temp/anonymous7867734237042370704webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8914)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/kevin/AppData/Local/Temp/anonymous7867734237042370704webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/kevin/AppData/Local/Temp/anonymous7867734237042370704webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/kevin/AppData/Local/Temp/anonymous7867734237042370704webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.testing.java.testcase.LoginTest@1247c45]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-24T22:40:56Z" finished-at="2016-07-24T22:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="testLogin001()[pri:0, instance:com.testing.java.testcase.LoginTest@1247c45]" name="testLogin001" duration-ms="0" started-at="2016-07-24T22:40:56Z" finished-at="2016-07-24T22:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin001 -->
+      </class> <!-- com.testing.java.testcase.LoginTest -->
+    </test> <!-- baidu -->
+  </suite> <!-- autoFunctionTest -->
+</testng-results>

@@ -1,0 +1,30 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25290" started-at="2016-07-24T15:57:48Z" finished-at="2016-07-24T15:58:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25290" started-at="2016-07-24T15:57:48Z" finished-at="2016-07-24T15:58:13Z">
+      <class name="com.testing.java.testcase.BaiduIndexTest">
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="9351" started-at="2016-07-24T15:57:48Z" finished-at="2016-07-24T15:57:57Z">
+        </test-method>
+        <test-method status="PASS" signature="clickLogin()" name="clickLogin" duration-ms="221" started-at="2016-07-24T15:57:57Z" finished-at="2016-07-24T15:57:57Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="428" started-at="2016-07-24T15:57:57Z" finished-at="2016-07-24T15:57:58Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="7081" started-at="2016-07-24T15:57:58Z" finished-at="2016-07-24T15:58:05Z">
+        </test-method>
+        <test-method status="PASS" signature="search001()" name="search001" duration-ms="671" started-at="2016-07-24T15:58:05Z" finished-at="2016-07-24T15:58:06Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="359" started-at="2016-07-24T15:58:06Z" finished-at="2016-07-24T15:58:06Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="6371" started-at="2016-07-24T15:58:06Z" finished-at="2016-07-24T15:58:12Z">
+        </test-method>
+        <test-method status="PASS" signature="testNuomi001()" name="testNuomi001" duration-ms="187" started-at="2016-07-24T15:58:12Z" finished-at="2016-07-24T15:58:13Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="585" started-at="2016-07-24T15:58:13Z" finished-at="2016-07-24T15:58:13Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

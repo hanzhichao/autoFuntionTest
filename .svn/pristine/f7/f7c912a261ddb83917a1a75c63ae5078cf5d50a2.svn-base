@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="51-C03-012" name="com.testing.java.testcase.BaiduIndexTest" tests="4" failures="1" timestamp="24 Jul 2016 09:07:41 GMT" time="29.695" errors="0">
+  <testcase name="clickLogin" time="0.228" classname="com.testing.java.testcase.BaiduIndexTest"/>
+  <testcase name="search001" time="3.872" classname="com.testing.java.testcase.BaiduIndexTest"/>
+  <testcase name="testNuomi001" time="0.112" classname="com.testing.java.testcase.BaiduIndexTest"/>
+  <testcase name="testLoin001" time="0.003" classname="com.testing.java.testcase.LoginTest">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.testing.java.pageobject.LoginPageobject.inputUserName(LoginPageobject.java:22)
+	at com.testing.java.testcase.LoginTest.testLoin001(LoginTest.java:24)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

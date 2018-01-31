@@ -1,0 +1,18 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10522" started-at="2016-07-24T17:19:41Z" finished-at="2016-07-24T17:19:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10522" started-at="2016-07-24T17:19:41Z" finished-at="2016-07-24T17:19:51Z">
+      <class name="com.testing.java.testcase.LoginTest">
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="8562" started-at="2016-07-24T17:19:41Z" finished-at="2016-07-24T17:19:49Z">
+        </test-method>
+        <test-method status="PASS" signature="testLogin001()" name="testLogin001" duration-ms="1575" started-at="2016-07-24T17:19:49Z" finished-at="2016-07-24T17:19:51Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="353" started-at="2016-07-24T17:19:51Z" finished-at="2016-07-24T17:19:51Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

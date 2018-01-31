@@ -1,0 +1,7 @@
+src:存放功能测试的代码
+	|--com.testing.java.utils.PropUtil:PropUtil类专门用于操作properties
+	|--uiElement:用于存放每个页面元素，每个页面对应一个配置文件，如BaiduIndexUIElements.propertis
+	|--
+test:存放测试代码
+libs：存放需要使用的jar包
+driver：存浏览器驱动程序

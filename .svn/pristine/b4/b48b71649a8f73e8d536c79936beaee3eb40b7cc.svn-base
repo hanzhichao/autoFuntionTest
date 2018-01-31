@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="51-C03-012" name="com.testing.java.utils.PropUtilTest" tests="1" failures="0" timestamp="24 Jul 2016 03:55:39 GMT" time="0.06" errors="0">
+  <testcase name="testGetProperty" time="0.035" classname="com.testing.java.utils.PropUtilTest"/>
+</testsuite>

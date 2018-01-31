@@ -1,0 +1,32 @@
+package com.testing.java.testcase;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.testing.java.pageobject.LoginPageobject;
+
+public class LoginTest {
+	WebDriver driver;
+	LoginPageobject po;
+
+	@BeforeMethod
+	public void beforeMethod(){
+		driver = new FirefoxDriver();
+		po =new LoginPageobject(driver);
+
+	}
+	
+	@Test
+	public void testLogin001(){
+		po.inputUserName("ivan-me@163.com");
+		po.inputPassword("hanzhichao520");
+		po.clickLoginbtn();
+	}
+	@AfterMethod
+	public void afterMethod(){
+		driver.quit();
+	}
+}

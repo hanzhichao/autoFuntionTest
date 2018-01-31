@@ -1,0 +1,28 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>autoFunctionTest</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:20</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;com.testing.java.testcase.BaiduIndexTest.afterMethod()">&lt;&lt;afterMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:30</td>   <td>9741</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;com.testing.java.testcase.BaiduIndexTest.afterMethod()">&lt;&lt;afterMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:36</td>   <td>16292</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;com.testing.java.testcase.BaiduIndexTest.afterMethod()">&lt;&lt;afterMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="9c85a0">  <td>16/07/24 17:07:41</td>   <td>21073</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;com.testing.java.testcase.LoginTest.afterMethod()">&lt;&lt;afterMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:11</td>   <td>-8424</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;com.testing.java.testcase.BaiduIndexTest.beforeMethod()">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:20</td>   <td>364</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;com.testing.java.testcase.BaiduIndexTest.beforeMethod()">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:30</td>   <td>10140</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;com.testing.java.testcase.BaiduIndexTest.beforeMethod()">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="9c85a0">  <td>16/07/24 17:07:36</td>   <td>16491</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;com.testing.java.testcase.LoginTest.beforeMethod()">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:20</td>   <td>-232</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="com.testing.java.testcase.BaiduIndexTest.clickLogin()">clickLogin</td> 
+  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:26</td>   <td>5866</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="com.testing.java.testcase.BaiduIndexTest.search001()">search001</td> 
+  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="9c85a0">  <td>16/07/24 17:07:41</td>   <td>21066</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="com.testing.java.testcase.LoginTest.testLoin001()">testLoin001</td> 
+  <td>main@13725128</td>   <td></td> </tr>
+<tr bgcolor="8ecba8">  <td>16/07/24 17:07:36</td>   <td>16179</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="com.testing.java.testcase.BaiduIndexTest.testNuomi001()">testNuomi001</td> 
+  <td>main@13725128</td>   <td></td> </tr>
+</table>

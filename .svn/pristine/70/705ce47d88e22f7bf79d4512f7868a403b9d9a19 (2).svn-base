@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="51-C03-012" name="com.testing.java.prac.Testcase" tests="1" failures="0" timestamp="24 Jul 2016 07:05:02 GMT" time="10.882" errors="0">
+  <testcase name="testSearch001" time="10.43" classname="com.testing.java.prac.Testcase"/>
+</testsuite>

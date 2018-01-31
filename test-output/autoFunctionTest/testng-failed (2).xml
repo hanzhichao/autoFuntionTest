@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [autoFunctionTest]" parallel="false">
+  <test name="baidu(failed)">
+    <classes>
+      <class name="com.testing.java.testcase.BaiduIndexTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class>
+      <class name="com.testing.java.testcase.LoginTest">
+        <methods>
+          <include name="testLoin001"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

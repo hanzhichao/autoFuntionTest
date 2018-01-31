@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [autoFunctionTest]">
+  <test name="baidu(failed)">
+    <classes>
+      <class name="com.testing.java.testcase.BaiduIndexTest">
+        <methods>
+          <include name="testNuomi001"/>
+          <include name="clickLogin"/>
+          <include name="beforeMethod"/>
+          <include name="search001"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testing.java.testcase.BaiduIndexTest -->
+      <class name="com.testing.java.testcase.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testLogin001"/>
+        </methods>
+      </class> <!-- com.testing.java.testcase.LoginTest -->
+    </classes>
+  </test> <!-- baidu(failed) -->
+</suite> <!-- Failed suite [autoFunctionTest] -->

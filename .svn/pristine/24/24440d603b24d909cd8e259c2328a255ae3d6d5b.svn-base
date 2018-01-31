@@ -1,0 +1,14 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60" started-at="2016-07-24T11:55:38Z" finished-at="2016-07-24T11:55:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60" started-at="2016-07-24T11:55:38Z" finished-at="2016-07-24T11:55:38Z">
+      <class name="com.testing.java.utils.PropUtilTest">
+        <test-method status="PASS" signature="testGetProperty()" name="testGetProperty" duration-ms="35" started-at="2016-07-24T11:55:38Z" finished-at="2016-07-24T11:55:38Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

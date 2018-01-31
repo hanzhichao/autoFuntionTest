@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="autoFunctionTestSuite" basedir="." default="run">
+	<!-- 加载build.properties配置文件 -->
+	<property file="build.properties"></property>
+	
+	<!-- 将相关的jar包、编译后的class文件添加到classpath环境变量下 -->
+	<path id="masterClassPath">
+		<fileset dir="${libs.dir}">
+			<include name="**/*.jar"></include>
+		</fileset> <!-- 将jar包添加到classpath环境变量下 -->
+		<pathelement path="${src.bin.dir}"/><!--将src的class文件添加到classapth下 -->
+		<pathelement path="${test.bin.dir}"/><!--将test的class文件添加到classapth下 -->
+	</path>
+	
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+		<classpath>
+			<pathelement location="${libs.dir}/testng-6.8.jar"/>
+		</classpath>
+	</taskdef>
+	
+	
+	<target name="clean">
+		<delete dir="${src.bin.dir}"></delete>
+		<delete dir="${test.bin.dir}"></delete>
+		<delete dir="${testNGoutput.dir}"></delete>
+		<echo>编译前删除原先所有的class文件成功</echo>
+	</target>
+	
+	<target name="init" depends="clean">
+		<mkdir dir="${src.bin.dir}"></mkdir>
+		<mkdir dir="${test.bin.dir}"></mkdir>
+		<mkdir dir="${testNGoutput.dir}"></mkdir>
+		<echo>重新编译并生成新的class文件</echo>
+	</target>
+		
+	
+	
+	<!-- 编译src源代码 -->
+	<target name="compileSRC" depends="init">
+		<javac srcdir="${src.dir}" destdir="${src.bin.dir}">
+			<classpath refid="masterClassPath"></classpath>
+		</javac>
+		<echo>编译src目录下的所有java文件成功</echo>
+	</target>
+	
+
+	<!-- 编译test源代码 -->
+	<target name="compileTest" depends="compileSRC">
+		<javac srcdir="${test.dir}" destdir="${test.bin.dir}">
+			<classpath refid="masterClassPath"></classpath>
+		</javac>
+		<echo>编译test目录下的所有java文件成功</echo>
+	</target>
+
+	<!-- 执行testNG.xml文件 -->
+	<target name="run" depends="compileTest">
+		<testng outputdir="${testNGoutput.dir}" classpathref="masterClassPath">
+			<xmlfileset dir="." includes="testng.xml" />
+		</testng>
+	
+	</target>
+	
+</project>

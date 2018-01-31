@@ -1,0 +1,3 @@
+username=.//*[@id='TANGRAM__PSP_8__userName']
+password=.//*[@id='TANGRAM__PSP_8__password']
+loginbtn=.//*[@id='TANGRAM__PSP_8__submit']

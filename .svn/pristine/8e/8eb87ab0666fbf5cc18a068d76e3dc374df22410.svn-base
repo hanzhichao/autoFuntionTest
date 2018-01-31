@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Default suite]" parallel="false">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testing.java.prac.Testcase">
+        <methods>
+          <include name="testSearch001"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
